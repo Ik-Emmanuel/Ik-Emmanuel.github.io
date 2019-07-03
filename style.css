@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Garamond;
+}
+#container{
+	width:200px;
+	margin: 0px auto;
+}
+
+#button{
+	width:100px;
+	margin: 0px auto;
+}
+
+
+
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@media screen and (max-width:959px){
+	#container {
+		width:100%;
+	}
+}
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b.jpg );
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    animation: slide 10s ease-in infinite;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.container span{
+    
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1 h1{
+    color: white;
+    font-size: 89px;
+    font-weight: 700;
+    letter-spacing: 8px; 
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    animation: text 4s 1;
+text-shadow: 1px 4px 3px blue;
+	}
+
+    .text1 h3{
+        color: white;
+        font-size: 64px;
+        font-weight: 700;
+        letter-spacing: 8px; 
+        margin-bottom: 10px;
+        background: rgba(0, 0, 0, 0);
+        position: relative;
+        animation: text 4s 1;
+    text-shadow: 1px 4px 3px blue;
+        }
+.text2{
+    font-size: 35px;
+    color: white;
+   text-shadow: 1px 2px 2px rgb(185, 123, 243);
+    margin-top: 20px;
+}
+
+.Hang{
+    font-size: 25px;
+    color: rgb(250, 249, 249);
+   text-shadow: 1px 2px 2px rgb(87, 10, 187);
+    margin-top: 7px;
+    margin-left: 900px;
+
+}
+
+@keyframes text{
+
+    0%{
+        color: rgb(143, 233, 140); 
+        margin-bottom: -40%;
+        letter-spacing: 23px; 
+    }
+
+    30% {
+        color: rgb(103, 174, 202); 
+       letter-spacing: 19px; 
+       margin-bottom: -40px;
+    }
+    85%{
+        color: rgb(156, 132, 196); 
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    100%{
+        font-size: 25px;
+    }
+    }
+}
+
+.button{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+  }
+  .btn{
+    border: 2px dotted #fff;
+    padding: 10px 29px;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  .btn:hover{
+      background-color: rgb(182, 220, 255);
+      color: #000;
+  }
+
+ 
+    .letter{
+        position: absolute;
+        bottom: 90%;
+        color: #fff;
+        transform: translate(-50%,-50%);
+		font-size: 35px;}
+	
+	
+	.letter {
+		position: relative;
+		top: 540px;
+		text-shadow: 1px 3px 3px rgb(48, 2, 23);
+		left: 201px;
+	}
+     .letter{
+		 animation: fade 3s infinite 200ms;
+	 }
+	  .letter{
+		 animation: fade 3s infinite 400ms;
+	 }
+		
+  .letter{
+		 animation: fade 3s infinite 600ms;
+	 }
+	   .letter{
+		 animation: fade 3s infinite 800ms;
+	 }
+	   .letter{
+		 animation: fade 3s infinite 1000ms;
+	 }
+	   .letter{
+		 animation: fade 3s infinite 1200ms;
+	 }
+		  .letter{
+		 animation: fade 3s infinite 1400ms;
+	 }
+		
+  .letter{
+		 animation: fade 3s infinite 1600ms;
+	 }
+	 
+	@keyframes fade {
+		50% {
+			opacity: 0.02;
+		}
+	}
+		 		
+	
+@keyframes slide {
+0% {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b2.jpg );
+
+}   
+ 50%{
+     background-image:  linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(c.jpg );
+ }
+ 67% {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b.jpg );
+ }
+}
+		 		
+  

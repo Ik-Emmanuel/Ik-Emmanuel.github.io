@@ -1,16 +1,30 @@
-*{
+html, body {
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     font-family: Garamond;
 }
 #container{
-	width:200px;
+	width:980px;
 	margin: 0px auto;
 }
 
 #button{
-	width:100px;
+	width:980px;
 	margin: 0px auto;
+}
+'
+
+#letter{
+	width:980px;
+	margin: 0px auto;
+}
+
+#Hang{
+	width:980px;
+	margin: 0px auto;
+
 }
 
 
@@ -23,16 +37,76 @@
 	zoom: 1.0;
 	width: extend-to-zoom;
 }
-@media screen and (max-width:959px){
+@media screen and (max-width:959 px){
 	#container {
 		width:100%;
 	}
+
+
+	#button{
+	width:50%;
+	}
+
+
+	#letter{
+	width:100%;
+	}
+
+	#body{
+		width:100%
+	}
 }
+
+@media screen and (max-width:640px){
+
+	#container {
+		width:100%;
+	}
+
+
+	#button{
+	width:100%;
+	}
+
+
+	#letter{
+	width:100%;
+	}
+
+	#body{
+		width:100%
+	}
+}
+
+
+@media screen and (max-width:320px){
+
+	#container {
+		width:320px;
+	}
+
+
+	#button{
+	width:320px;
+	}
+
+
+	#letter{
+	width:320px;
+	}
+
+	#body{
+		width:320px;
+	}
+
+}
+
 body{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b.jpg );
-    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b.jpg ) center center;
+    height: 100%;
+    width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: relative;
     background-attachment: fixed;
     overflow: hidden;
     animation: slide 10s ease-in infinite;
@@ -42,50 +116,55 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-60%);
     width: 100%;
 }
 .container span{
-    
+
     text-transform: uppercase;
     display: block;
+    width: 100%;
 }
 
 .text1 h1{
     color: white;
     font-size: 89px;
     font-weight: 700;
-    letter-spacing: 8px; 
-    margin-bottom: 10px;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
     background: rgba(0, 0, 0, 0);
     position: relative;
     animation: text 4s 1;
 text-shadow: 1px 4px 3px blue;
+width: 100%;
 	}
 
     .text1 h3{
         color: white;
         font-size: 64px;
         font-weight: 700;
-        letter-spacing: 8px; 
-        margin-bottom: 10px;
+        letter-spacing: 8px;
+        width: 100%;
+
         background: rgba(0, 0, 0, 0);
         position: relative;
         animation: text 4s 1;
     text-shadow: 1px 4px 3px blue;
         }
 .text2{
-    font-size: 35px;
+    font-size: 20px;
     color: white;
    text-shadow: 1px 2px 2px rgb(185, 123, 243);
-    margin-top: 20px;
+      bottom: 90px;
+      margin-top: 2px;
+      margin-bottom: 60px;
 }
 
 .Hang{
     font-size: 25px;
     color: rgb(250, 249, 249);
    text-shadow: 1px 2px 2px rgb(87, 10, 187);
-    margin-top: 7px;
+    margin-top: 12px;
     margin-left: 900px;
 
 }
@@ -93,20 +172,20 @@ text-shadow: 1px 4px 3px blue;
 @keyframes text{
 
     0%{
-        color: rgb(143, 233, 140); 
-        margin-bottom: -40%;
-        letter-spacing: 23px; 
+        color: rgb(143, 233, 140);
+        margin-bottom: -60%;
+        letter-spacing: 23px;
     }
 
     30% {
-        color: rgb(103, 174, 202); 
-       letter-spacing: 19px; 
-       margin-bottom: -40px;
+        color: rgb(103, 174, 202);
+       letter-spacing: 19px;
+       margin-bottom: -50px;
     }
     85%{
-        color: rgb(156, 132, 196); 
+        color: rgb(156, 132, 196);
         letter-spacing: 8px;
-        margin-bottom: -40px;
+        margin-bottom: -50px;
     100%{
         font-size: 25px;
     }
@@ -115,35 +194,38 @@ text-shadow: 1px 4px 3px blue;
 
 .button{
     position: absolute;
-    top: 84%;
+    margin-top: 50px;
+    top: 83%;
     left: 50%;
     transform: translate(-50%,-50%);
-  
+
   }
   .btn{
     border: 2px dotted #fff;
     padding: 10px 29px;
     color: #fff;
     text-decoration: none;
-    
+    top: 94%;
+    left: 50%;
+
   }
   .btn:hover{
       background-color: rgb(182, 220, 255);
       color: #000;
   }
 
- 
+
     .letter{
         position: absolute;
         bottom: 90%;
         color: #fff;
         transform: translate(-50%,-50%);
 		font-size: 35px;}
-	
-	
+
+
 	.letter {
 		position: relative;
-		top: 540px;
+		top: 460px;
 		text-shadow: 1px 3px 3px rgb(48, 2, 23);
 		left: 201px;
 	}
@@ -153,7 +235,7 @@ text-shadow: 1px 4px 3px blue;
 	  .letter{
 		 animation: fade 3s infinite 400ms;
 	 }
-		
+
   .letter{
 		 animation: fade 3s infinite 600ms;
 	 }
@@ -169,23 +251,23 @@ text-shadow: 1px 4px 3px blue;
 		  .letter{
 		 animation: fade 3s infinite 1400ms;
 	 }
-		
+
   .letter{
 		 animation: fade 3s infinite 1600ms;
 	 }
-	 
+
 	@keyframes fade {
 		50% {
 			opacity: 0.02;
 		}
 	}
-		 		
-	
+
+
 @keyframes slide {
 0% {
     background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b2.jpg );
 
-}   
+}
  50%{
      background-image:  linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(c.jpg );
  }
@@ -193,5 +275,3 @@ text-shadow: 1px 4px 3px blue;
      background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(b.jpg );
  }
 }
-		 		
-  

@@ -116,7 +116,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-60%);
+    transform: translate(-50%,-52%);
     width: 100%;
 }
 .container span{
@@ -165,7 +165,7 @@ width: 100%;
     color: rgb(250, 249, 249);
    text-shadow: 1px 2px 2px rgb(87, 10, 187);
     margin-top: 12px;
-    margin-left: 900px;
+    right: 70%;
 
 }
 
@@ -215,53 +215,7 @@ width: 100%;
   }
 
 
-    .letter{
-        position: absolute;
-        bottom: 90%;
-        color: #fff;
-        transform: translate(-50%,-50%);
-		font-size: 35px;}
-
-
-	.letter {
-		position: relative;
-		top: 460px;
-		text-shadow: 1px 3px 3px rgb(48, 2, 23);
-		left: 201px;
-	}
-     .letter{
-		 animation: fade 3s infinite 200ms;
-	 }
-	  .letter{
-		 animation: fade 3s infinite 400ms;
-	 }
-
-  .letter{
-		 animation: fade 3s infinite 600ms;
-	 }
-	   .letter{
-		 animation: fade 3s infinite 800ms;
-	 }
-	   .letter{
-		 animation: fade 3s infinite 1000ms;
-	 }
-	   .letter{
-		 animation: fade 3s infinite 1200ms;
-	 }
-		  .letter{
-		 animation: fade 3s infinite 1400ms;
-	 }
-
-  .letter{
-		 animation: fade 3s infinite 1600ms;
-	 }
-
-	@keyframes fade {
-		50% {
-			opacity: 0.02;
-		}
-	}
-
+	
 
 @keyframes slide {
 0% {

@@ -131,6 +131,7 @@ body{
     font-size: 89px;
     font-weight: 700;
     letter-spacing: 8px;
+    padding-top: 60px;
     margin-bottom: 30px;
     background: rgba(0, 0, 0, 0);
     position: relative;
@@ -215,7 +216,8 @@ width: 100%;
   }
 
 
-	
+
+
 
 @keyframes slide {
 0% {

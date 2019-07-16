@@ -52,7 +52,7 @@ html, body{
 #fixed {
     background: url(img/put.jpg) no-repeat center center fixed;
     display: table;
-    height: 10%;
+    height: 29%;
     position: relative;
     width: 100%;
     background-size: cover;

@@ -166,32 +166,11 @@ width: 100%;
     color: rgb(250, 249, 249);
    text-shadow: 1px 2px 2px rgb(87, 10, 187);
     margin-top: 12px;
-    right: 70%;
+    margin-left: 68%;
 
 }
 
-@keyframes text{
 
-    0%{
-        color: rgb(143, 233, 140);
-        margin-bottom: -60%;
-        letter-spacing: 23px;
-    }
-
-    30% {
-        color: rgb(103, 174, 202);
-       letter-spacing: 19px;
-       margin-bottom: -50px;
-    }
-    85%{
-        color: rgb(156, 132, 196);
-        letter-spacing: 8px;
-        margin-bottom: -50px;
-    100%{
-        font-size: 25px;
-    }
-    }
-}
 
 .button{
     position: absolute;

@@ -37,6 +37,7 @@ html, body {
     padding: 2 9px 1px;
     color: rgb(250, 246, 246);
     left: 68%;
+	font-family: 'Philosopher', sans-serif;
 }
 
 @viewport{
@@ -139,10 +140,11 @@ body{
 
 .text1 h1{
     color: white;
-    font-size: 82px;
+    font-size: 72px;
+	font-family: 'Permanent Marker', cursive;
     font-weight: 700;
     letter-spacing: 8px;
-    padding-top: 60px;
+    padding-top: 90px;
     margin-bottom: 30px;
     background: rgba(0, 0, 0, 0);
     position: relative;
@@ -153,9 +155,10 @@ width: 100%;
 
     .text1 h3{
         color: white;
-        font-size: 64px;
+font-family: 'Permanent Marker', cursive;      
+font-size: 54px;
         font-weight: 700;
-        letter-spacing: 8px;
+        letter-spacing: 4px;
         width: 100%;
 
         background: rgba(0, 0, 0, 0);
@@ -163,14 +166,14 @@ width: 100%;
         animation: text 4s 1;
     text-shadow: 1px 4px 3px blue;
         }
-.text2{
+ h4{
     font-size: 20px;
     color: white;
    text-shadow: 1px 2px 2px rgb(185, 123, 243);
       bottom: 90px;
-      margin-top: 2px;
+      margin-top: 12px;
       margin-bottom: 60px;
-}
+}	font-family: 'Saira', sans-serif;
 
 .Hang{
     font-size: 25px;

@@ -32,7 +32,7 @@ html, body {
 }
 
 .navbar-default .navbar-brand  {
-    font-size: 26px;
+    font-size: 23px;
     min-height: 55px;
     padding: 2 9px 1px;
     color: rgb(250, 246, 246);
@@ -167,7 +167,7 @@ font-size: 54px;
     text-shadow: 1px 4px 3px blue;
         }
  h4{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
    text-shadow: 1px 2px 2px rgb(185, 123, 243);
       bottom: 90px;

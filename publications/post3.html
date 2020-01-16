@@ -157,7 +157,7 @@
             <img class="img-fluid" src="img/osi.jpg" alt="">
          
           <span class="caption text-muted">The OSI Model.</span>  
-          <p>In 1978 the ISO defined a reference model for data communication to deal with the proliferation of closed network systems, called the open system interconnection model. The model is composed of seven layers. Each layers have a define purpose and interfaces with the layer above, or below it. </p>
+          <p>In 1978 the ISO defined a reference model for data communication to deal with the proliferation of closed network systems, called the open system interconnection model. The model is composed of seven layers. Each layer has a defined purpose and interfaces with the layer above, or below it. </p>
           
           <p>
               The 7 (Seven)  Layers are:
@@ -177,7 +177,7 @@
          
            <ol type="a">
               <li> <b>Physical layer: </b>    this layer includes the elements involved with the actual transmission and reception of signals and the physical connection between devices and networks. It encompasses the network cables, power plug, connectors, transceivers, repeaters etc. Commonly used physical layer wiring standards include RS-232, RS-422, RS-485, RJ-45  etc.</li>
-              <li><b> Data link layer:</b>   this layer provides services that allow communication between devices. It includes framing and de-framing of data packets, error detection, and addressing mechanisms.  It is divided into sub layers: MAC (Media Access Control) and LLC (Logical Link Control). It is responsible for setting up links across the physical networks and it usually includes data communication devices called .<b> switches</b> </li>
+              <li><b> Data link layer:</b>   this layer provides services that allow communication between devices. It includes framing and deframing of data packets, error detection, and addressing mechanisms.  It is divided into sub layers: MAC (Media Access Control) and LLC (Logical Link Control). It is responsible for setting up links across the physical networks and it usually includes data communication devices called .<b> switches</b> </li>
               <li><b>  Network layer: </b> this layer is responsible for device-to-device data delivery and routing across networks. This layer allows for data transfer from one network to another. It usually includes routers, gateways and higher-level switches.  </li>
               <li><b> Transport layer:</b> Transport layer: this layer is responsible for successful transmission of data across a network. They provide a guaranteed delivery messaging service, ensuring that the data is error-free, correctly sequenced, and properly delivered. The standard protocols in this layer include: the TCP/IP (Transmission Control Protocol) and the UDP (User Datagram protocol).  </li>
             <li><b> Session layer: </b>  Session layer: this layer is responsible for the construction, direction and conclusion of connections between devices. It provides a means for establishing communication sessions between applications running within the network devices. It is also responsible for authentication and reconnection if interruption occurs on the network. </li>
@@ -213,9 +213,9 @@ I.  <b> Level 1- Sensor Network: </b>  This is the least complex of networks, de
 <br> 
 II. <b> Level 2 - Device Bus Network:</b> This network works on a larger scale, connecting many sensors and actuators together. It also connects equipment to variable speed drives and motor control centres that allow for control of individual elements on a network. 
 <br> 
-III. <b> Level 3 -Control Bus Network: </b>  These are the most advanced network used on the factory floor and data communication happens at the higher level.  Here, PLCs are connected to each other and with HMIs. Also smart instruments capable of performing complex operations can also be connected at this network level. 
+III. <b> Level 3 -Control Bus Network: </b>  These are the most advanced networks used on the factory floor and data communication happens at a higher level.  Here, PLCs are connected to each other and with HMIs. Also smart instruments capable of performing complex operations can also be connected at this network level. 
 <br> 
-IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level connects all computers and departments of an enterprise together this level of network is primarily computer driven and allows for data collection, monitoring, file transfers an email Exchange on a large scale. 
+IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level connects all computers and departments of an enterprise together. It is primarily computer driven, and allows for data collection, monitoring, file transfers an email Exchange on a large scale. 
 
 <p>The Fieldbus is not a connection type, but it describes a group of protocols such as: ControlNet, Modbus, Profibus etc.  </p>
 <p>
@@ -248,7 +248,7 @@ IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level
 <span class="caption text-muted">Profibus </span>  
 
 <p>Profibus is an open digital communication system with a wide range of applications in the field of industrial process automation and control. It is defined by the IEC-61158 standard.  Profibus is a fieldbus communication standards for linking process control and plant automation devices and modules. It is a high-speed bi-directional serial messaging protocol used for transfer of information usually from controllers (master devices) to remote I/O modules (slave devices).
-   In scenarios where we have to connect to remote devices from controllers, instead of running individual cables from controllers to these remote sensors, we can simply use a single multi drop cable to connect all the devices and them one cable back to the controller and this helps save a lot save a lot of material. Profibus is of two type: Profibus DP (Decentralized Peripherals) and Profibus PA (Process Automation). </p>
+   In scenarios where we have to connect to remote devices from controllers, instead of running individual cables from controllers to these remote sensors, we can simply use a single multi drop cable to connect all the devices and then,  one cable back to the controller and this helps save a lot save a lot of material. Profibus is of two types: Profibus DP (Decentralized Peripherals) and Profibus PA (Process Automation). </p>
    <ul>
       <li> <b>  Profibus DP (Decentralized Peripherals):</b> this is used to couple remote I/O modules to controllers, providing data transfer speed of 9.6 kbps- 12 Kbps and for wiring standards, it comes with a purple coloured cable and a standard DB-9 connector.  </li>
       <li> <b>Profibus PA (Process automation):</b>  this is used in remote locations for sensors and actuator interfacing where environments are hazardous and toxic. It comes with a blue coloured cable and data transfer speed of up to 32 kbps.  </li>
@@ -258,11 +258,11 @@ IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level
       <img class="img-fluid" src="img/asi.png" alt="">
       <span class="caption text-muted">AS-I Modules </span>  
 
-<p>Actuator sensor interface is used to operate actuators and sensors  with control level devices. It is an open standard for simple networking of devices found out in the field area, where we need to connect multiple actuators and sensors. It comprises of an intelligent cabling system, designed to replace multiple discrete wires linking actuators and sensors with the PLC or other controlling devices. It uses a master-slave configuration with cyclic polling, where a single AS- Interface master can exchange input and output data with up to 62 AS-I slave devices.
+<p>Actuator sensor interface is used to operate actuators and sensors  with control level devices. It is an open standard for simple networking of devices found out in the field area, where we need to connect multiple actuators and sensors. It comprises an intelligent cabling system, designed to replace multiple discrete wires linking actuators and sensors with the PLC or other controlling devices. It uses a master-slave configuration with cyclic polling, where a single AS- Interface master can exchange input and output data with up to 62 AS-I slave devices.
    They allow transmission of both digital and analogue signals with up to four (4) inputs, and four (4) outputs at any given time. </p>
 
 
-<p>AS-I devices have cost-saving and wiring benefits making them really attractive choice for connecting field sensors and actuators.</p>
+<p>AS-I devices have cost-saving and wiring benefits making them a really attractive choice for connecting field sensors and actuators.</p>
 
 <p>
     The AS-I configuration has three main components: 
@@ -281,7 +281,7 @@ IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level
   <img class="img-fluid" src="img/modbus.jpg" alt="">
       <span class="caption text-muted"> 2 RS-232 , 2 RS- 422, 1 RS-485 </span> 
           
-     <p>Developed by Modicon in 1979, created specifically for use with Modicon PLCs. Today it is an open protocol used by a wide range of automation products. It can be used over Ethernet, as well as over serial cable. It is also a master-slave communication protocol, which operates by allowing one master device communicate with up to 247 slave devices on a common line. 
+     <p>Developed by Modicon in 1979, created specifically for use with Modicon PLCs. Today it is an open protocol used by a wide range of automation products. It can be used over Ethernet, as well as over serial cable. It is also a master-slave communication protocol, which operates by allowing one master device to communicate with up to 247 slave devices on a common line. 
        Each slave device is assigned an address to distinguish it from other connected slave devices. </p>  
        <p>
           Modbus has two main configuration:  
@@ -325,7 +325,7 @@ IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level
   inputs modules of the controller will need to support the HART protocol. Fortunately today, HART is built into most commercially available analogue sensors. </p>
 
 
-<p>HART is a very good choice for multi-variable instruments like mass-flow metres, where mass-flow, volumetric flow, temperature and density all need to be communicated to the control system over a single cable.  The HART protocol is governed by a vendor Independent association (the HART communication foundation) 
+<p>HART is a very good choice for multivariable instruments like mass-flow metres, where mass-flow, volumetric flow, temperature and density all need to be communicated to the control system over a single cable.  The HART protocol is governed by a vendor Independent association (the HART communication foundation) 
   so irrespective of the manufacturer, various HART enabled devices can easily be interchanged.</p>
 
 
@@ -337,7 +337,7 @@ IV. <b> Level 4 – Enterprise and Information Network  </b>  This network level
 
 
 
-<p>This is an application level protocol used in industrial automation environment. It is a communication tool that allows us talk between PLCs and many control devices such as motors, flow metres etc. Instead of the PLC talking directly to the modules it can talk via a DeviceNet scanner. With DeviceNet, we join the power and signal into one cable, eliminating the need of multiple cables. It was originally developed for Allen-Bradley the Rockwell Automation PLC, but now is an open network protocol that is now managed by a group called the Open DeviceNet Vendors Association (ODVA)
+<p>This is an application level protocol used in the industrial automation environment. It is a communication tool that allows us to talk between PLCs and many control devices such as motors, flow metres etc. Instead of the PLC talking directly to the modules it can talk via a DeviceNet scanner. With DeviceNet, we join the power and signal into one cable, eliminating the need of multiple cables. It was originally developed for Allen-Bradley the Rockwell Automation PLC, but now is an open network protocol that is now managed by a group called the Open DeviceNet Vendors Association (ODVA)
    which develops standards for third-party vendors to utilise the protocol.  It follows the OSI model based on a common industrial protocol (CIP). </p>
 
 <p>The physical layer consists of a combination of cables, nodes and termination resistors in a “Trunk-line, Drop-Line” topology. For the data link layer, DeviceNet uses the controller area network (CAN) standards that handles all the messaging between controllers and devices.  The network and transport layer of DeviceNet establishes a connection with devices by using connection IDs (consisting of MAC IDs and Message IDs) for the nodes. 

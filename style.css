@@ -114,7 +114,7 @@ html, body {
 }
 
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(1.jpg ) center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(1a.jpg ) center center;
     height: 100%;
     width: 100%;
     position: relative;
@@ -216,14 +216,14 @@ font-size: 54px;
 
 @keyframes slide {
 0% {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(1.jpg );
+    background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(2.jpg );
 
 }
  50%{
-     background-image:  linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(3.jpg );
+     background-image:  linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(1a.jpg );
  }
  67% {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(2.jpg );
+     background-image: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.671)), url(3.jpg );
  }
 }
 .wrapper{

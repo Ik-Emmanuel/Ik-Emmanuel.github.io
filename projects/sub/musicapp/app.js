@@ -85,6 +85,8 @@ const currentMusicTime = document.querySelector('.current-time');
 const musicDuration = document.querySelector('.duration');
 
 const queue = [...document.querySelectorAll('.queue')];
+const playlistCards = [...document.querySelectorAll('.playlist-card')];
+
 
 
 ///////////// select all buttons here 
@@ -229,4 +231,12 @@ queue.forEach((item, i) => {
         setMusic(i);
         playBtn.click();
     })
+})
+
+playlistCards.forEach((item) =>{
+    item.addEventListener('click', ()=>{
+        playlistSection.classList.add('active');
+
+    })
+
 })

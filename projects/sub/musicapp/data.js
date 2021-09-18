@@ -1,4 +1,45 @@
-let songs = [{
+let songs = [
+    
+    {
+        name: 'Roju',
+        path: 'assets/musics/Roju.mp3',
+        artist: 'Chike',
+        cover: 'assets/images/chike.jpeg'
+    },
+    {
+        name: 'Final Say',
+        path: 'assets/musics/Final Say.mp3',
+        artist: 'Banky W',
+        cover: 'assets/images/banky.jpg'
+    },
+    {
+        name: 'If You No Love',
+        path: 'assets/musics/If You No Love.mp3',
+        artist: 'Chike',
+        cover: 'assets/images/chike2.png'
+    },
+    {
+        name: 'Way Too Big',
+        path: 'assets/musics/Way Too Big.mp3',
+        artist: 'Burna Boy',
+        cover: 'assets/images/burna.jpg'
+    },
+    {
+        name: 'Zoom',
+        path: 'assets/musics/Zoom.mp3',
+        artist: 'Cheque',
+        cover: 'assets/images/check.jpg'
+    },
+
+    {
+        name: 'On The Low',
+        path: 'assets/musics/On The Low.mp3',
+        artist: 'Burna Boy',
+        cover: 'assets/images/burna2.jpg'
+    },
+    
+    
+    {
         name: 'song 1',
         path: 'assets/musics/Song 1.mp3',
         artist: 'artist 1',

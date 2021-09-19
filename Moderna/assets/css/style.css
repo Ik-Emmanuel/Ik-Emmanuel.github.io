@@ -366,7 +366,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
-  padding-top: 10px;
 }
 
 #hero p {
@@ -483,7 +482,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero-no-slider h2 {
   color: #fff;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -516,7 +515,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (max-width: 575px) {
   #hero-no-slider h2 {
-    font-size: 10px;
+    font-size: 30px;
   }
 }
 

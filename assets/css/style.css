@@ -64,6 +64,46 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+
+  #hero h1 {
+    margin: 0;
+    font-size: xx-small;
+    /* font-weight: 850; */
+    color: #fff;
+    /* padding-top: 10px; */
+  
+  }
+
+  h1 {
+    font-size: xx-small;
+  }
+  .carousel {
+    width: 100%;
+    height: 190px;
+
+    overflow: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    position: relative;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+  }
+  
+
+  #header {
+    background: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 0px 0;
+    color: wh;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -459,8 +499,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
   }
   #hero h1 {
-    padding-top: 80px;
-    font-size: 59px;
+    padding-top: 50px;
+    font-size: 39px;
   }
   #hero h3 {
     font-size: 18px;

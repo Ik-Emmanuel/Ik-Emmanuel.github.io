@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family:  "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.705);
+  background: rgba(0, 0, 0, 0.548);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -560,7 +560,10 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.925)), url('../img/tech2.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: absolute;
   bottom: 60px;
   top: 60px;

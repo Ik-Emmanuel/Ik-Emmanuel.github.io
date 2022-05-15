@@ -48,7 +48,7 @@
         var scrollto = $(initial_nav).offset().top - scrolltoOffset;
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo');
       }
     }
   });
@@ -144,7 +144,7 @@
   $('.back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
-    }, 1500, 'easeInOutExpo');
+    }, 1000, 'easeInOutExpo');
     return false;
   });
 
